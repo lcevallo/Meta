@@ -1,0 +1,28 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Topbar from "../components/Topbar.astro";
+
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x"></script>
+		<title>Astro</title>
+	</head>
+	<body>
+		<Topbar />	
+		<Header />
+
+		<Footer />
+		
+	</body>
+</html>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
